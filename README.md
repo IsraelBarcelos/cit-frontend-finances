@@ -10,7 +10,8 @@ this happens because not all dependencies are up-to-date
 
 2 #### on your controller (spring boot)
 
-@CrossOrigin("*")                       /* This will free all entries to the application: !!!!!NEVER USE IT IN PRODUCTION!!!!!    */
+@CrossOrigin("\*")                       
+/\* This will free all entries to the application: !!!!!NEVER USE IT IN PRODUCTION!!!!!    \*/
 
 public class PostController {
 ...
